@@ -1,5 +1,5 @@
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   div {
     display: none;
   }
@@ -12,4 +12,7 @@
 
   .offset_1, .offset_2, .offset_3, .offset_4, .offset_5, .offset_6, .offset_7, .offset_8, .offset_9, .offset_10, .offset_11 {
     margin-left: 0%;
+  }
+  .info h2 {
+    color: #a1a1a1;
   }
