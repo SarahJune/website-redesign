@@ -53,15 +53,30 @@ header img {
     font-size: 5em;
     transform: rotate(-90deg);
     width: 69px;
-    position: absolute;               /* 2 */
-    top: 75%;                         /* 3 */
+    position: absolute;
+    top: 75%;
+    text-transform: uppercase;
   }
 
-  .info p {
-    padding: 3%;
+  .info h3, h4, p {
+    padding-bottom: 2%;
     position: relative;
     z-index: 20;
   }
 
+.work {
+  margin: 10% 0%;
+}
 
+.blogIntro {
+  margin: 10% 0%;
+}
 
+  .blogIntro h3 {
+    padding: 0%;
+    font-size: 15;
+  }
+
+.project {
+  margin: 10% 0% 0% 0%;
+}
