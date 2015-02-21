@@ -1,6 +1,11 @@
 body {
   font-size: 100%; /* 16px */
   line-height: 150%; /* 24px */
+  background: url(https://40.media.tumblr.com/f155199da0b12026dda877992c2820b5/tumblr_nk3tcuGaik1rcmrtjo1_540.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 div{

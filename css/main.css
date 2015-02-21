@@ -1,5 +1,5 @@
 header {
-  background-color: white;
+
 }
 
 h1 {
@@ -27,6 +27,10 @@ header img {
   height: 20px;
 }
 
+footer {
+  background-color: white;
+}
+
 .border {
   border-top: 1px dotted gray;
   margin: 3%;
@@ -38,6 +42,7 @@ header img {
 
 .info {
   background-color: gray;
+  backgroud
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -79,4 +84,13 @@ header img {
 
 .project {
   margin: 10% 0% 0% 0%;
+}
+
+.mid_1 img {
+  position: fixed;
+  vertical-align: top;
+  width: 100%;
+
+
+
 }
