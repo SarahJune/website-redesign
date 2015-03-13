@@ -1,18 +1,18 @@
 header {
-
+  margin: 6% 0%;
 }
 
 h1 {
-  font-size: 2em;
-  font: gray;
-  font-family: Verdana;
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Ubuntu';
   text-align: center;
   line-height: 1em;
   padding-top: 3%;
 }
 
 a:link, a:visited, a:active, a:hover {
-  color: #595959;
+  color: white;
   text-decoration: none;
   font-size: .75em;
   margin: 3%;
@@ -31,17 +31,22 @@ footer {
   background-color: white;
 }
 
+article {
+  margin: 3%;
+  border-bottom: 1px dotted white;
+}
+
 .border {
-  border-top: 1px dotted gray;
+  border-top: 1px dotted white;
   margin: 3%;
   border-radius: 30%;
-  border-bottom: 1px dotted gray;
+  border-bottom: 1px dotted white;
   text-align: center;
   float: left;
 }
 
 .info {
-  background-color: gray;
+  background-color: white;
   backgroud
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,39 +56,32 @@ footer {
   position: relative;
 }
 
-  .info h2 {
-    float: left;
-    color: #c1c1c1;
-    z-index: 10;
-    font-size: 5em;
-    transform: rotate(-90deg);
-    width: 69px;
-    position: absolute;
-    top: 75%;
-    text-transform: uppercase;
-  }
-
   .info h3, h4, p {
     padding-bottom: 2%;
     position: relative;
     z-index: 20;
+    font-family: 'Ubuntu';
+    font-weight: 300;
   }
 
-.work {
-  margin: 10% 0%;
+.about, .work, .blog-intro{
+
 }
 
-.blogIntro {
-  margin: 10% 0%;
-}
-
-  .blogIntro h3 {
+  .blog-intro h3 {
     padding: 0%;
     font-size: 15;
   }
 
 .project {
   margin: 10% 0% 0% 0%;
+}
+
+.section-header {
+  color: #c1c1c1;
+  font-size: 5em;
+  text-transform: uppercase;
+  padding: 2%;
 }
 
 .mid_1 img {

@@ -15,4 +15,8 @@
   }
   .info h2 {
     color: #a1a1a1;
+    transform: rotate(-90deg);
+    z-index: 10;
+    position: absolute;
+    width: 5%;
   }
