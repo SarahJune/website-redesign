@@ -1,11 +1,10 @@
+html{
+  background: url(https://40.media.tumblr.com/e9ca8b06526d2b02057f93e7b2a936af/tumblr_nk3vkmwGsM1rcmrtjo2_1280.jpg) center center no-repeat;
+}
+
 body {
   font-size: 100%; /* 16px */
   line-height: 150%; /* 24px */
-  background: url(https://40.media.tumblr.com/f155199da0b12026dda877992c2820b5/tumblr_nk3tcuGaik1rcmrtjo1_540.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 div{
@@ -26,7 +25,7 @@ div{
 
 /*  COLUMN SETUP  */
 .col {
-  display: block;
+  display: block
   float:left;
   margin: 1% 0 1% 1%;
 }
