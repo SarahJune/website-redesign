@@ -4,16 +4,20 @@ header {
   z-index: 50;
   padding-top: 1%;
   background-color: #163859;
-  height: 25%;
+  height: 20%;
 }
 
-.logo {
+.title {
   font-family: 'Euphoria Script', cursive;
   font-size: 50px;
   color: #C0C1C2;
   margin: 100px 0px;
   text-align: center;
+}
 
+.logo {
+  width: 500px;
+  padding: 5%;
 }
 
 h2 {
@@ -55,7 +59,7 @@ nav {
 }
 
 .info {
-  background-color: #99B0BB;
+  background-color: #FFFFFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
