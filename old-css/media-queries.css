@@ -1,0 +1,22 @@
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 600px) {
+  div {
+    display: none;
+  }
+
+  .col {  margin: 1% 0 1% 0%; }
+
+  .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+    width: 100%;
+  }
+
+  .offset_1, .offset_2, .offset_3, .offset_4, .offset_5, .offset_6, .offset_7, .offset_8, .offset_9, .offset_10, .offset_11 {
+    margin-left: 0%;
+  }
+  .info h2 {
+    color: #a1a1a1;
+    transform: rotate(-90deg);
+    z-index: 10;
+    position: absolute;
+    width: 5%;
+  }
